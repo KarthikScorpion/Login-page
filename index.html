@@ -1,31 +1,37 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<style>
-</style>
-<link rel="stylesheet" href="style.css">
-<script src="JavaScript/main.js"></script>
+<body>
+    <h1 class="title">Login page</h1>
 
-<body style="background-color:black;">
+    <form id="myForm">
+        <div id="container">
 
-    <h1 class="body" style="font-size:200%;">That's Me</h1>
-    <div class="image-div">
-        <img class="image" src="face.jpg" alt="Karthik">
-    </div>
+            <label>Email</label>
+            <input  id="mail"  placeholder="Email">
+            <label>Password</label>
+            <input  id="pas" type="password"  placeholder="Password">
+            </br>
+            <div>
+            <input  value="Male" id="r1"  type="radio">Male</input>
+            <input  value="Female" id="r2"  type="radio">Female</input>
+            </div>
 
-    <p class="body">My Name is Karthik, I am 14 years old and i love coding.</p>
-    <p class="body">I love to code in my free time, Me and my friend love to build games, and small websites.</p>
-    <hr>
-    <h2 class="body">I know python C# C++ and HTML, In fact THIS server is made from HTML.</h2>
-    <div class="blog-div">
-        <p><a id="blog-js" class="blog-link" href="https://aboutme69.w3spaces.com/blog.htm?bypass-cache=1626152397"
-                target="_blank">My Blog.</a></p>
-    </div>
-    <hr>
-    <div class="support-div">
-        <p> <a class="support-link" href="mailto:karthik201024@gmail.com" target="_blank">Contact for support</a> </p>
-    </div>
+            <button id="butt" onclick="fun1c">Login</button>
+        </div>
+    </form>
+
+
+
+    <script src="main.js"></script>
 </body>
 
-</html>
+</html> 
