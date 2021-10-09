@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" 
+<head>
+<meta charset="utf-8">
+<title>Sign Up</title>
+<link rel="stylesheet" href="" https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"">
+<link rel="stylesheet" href="login_page.css">
+<script src="login_page.js"></script>
+<?php include 'login_sessions.php'; ?>
+<?php include 'login_config.php'; ?>
+<?php include 'login.php'; ?>
+</head>
+
+<body>
+  <!-- Divs-->
+  <div class="container">
+    <!-- Added container div-->
+
+    <div class="col-md-12">
+      <!--Added col-md-12 div-->
+      <h2>Register</h2>
+      <p>Please fill this form to create an account.</p>
+
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" name="name" class="form-control" required>
+      </div>
+      <!-- Added Full Name div-->
+
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" name="email" class="form-control" required />
+      </div>
+      <!-- Added Email Address div -->
+
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" name="password" class="form-control" required>
+      </div>
+      <!-- Added Password div -->
+      <div class="form-group">
+        <label>Confirm Password</label>
+        <input type="password" name="confirm_password" class="form-control" required>
+      </div>
+      <!-- Added Confirm Password div -->
+
+      <div class="form-group">
+        <input type="submit" name="submit" class"btn btn-primary" value="submit">
+      </div>
+      <!-- Added Submit div -->
+      <p>Already have an account?<a href="login.php">Login</a></p>
+
+      </form>
+    </div>
+  </div>
+</body>
+</html>
